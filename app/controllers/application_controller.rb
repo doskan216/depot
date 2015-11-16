@@ -17,5 +17,5 @@ class ApplicationController < ActionController::Base
     def now
       @time = Time.now
     end
-    
+
 end
