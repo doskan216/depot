@@ -19,6 +19,9 @@
         <li><a href="http://www....">よくある質問</a></li>
         <li><a href="http://www....">ニュース</a></li>
         <li><a href="http://www....">お問い合わせ</a></li>
+        <% if @cart %>
+        <li><%= link_to('カート', cart_path(@cart)) %></li>
+        <% end %>
       </ul>
       <p id="time"><%= @time %></p>
 

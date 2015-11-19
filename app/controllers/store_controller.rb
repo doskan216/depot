@@ -16,5 +16,6 @@ class StoreController < ApplicationController
     # puts"------------------------"
 
     #     session[:counter] = 1
+    @cart = current_cart
   end
 end
